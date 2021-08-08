@@ -1,32 +1,35 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <v-app>
+    <div class="Nav">
+      <UserNavbar />
     </div>
-    <router-view/>
-  </div>
+    <div>
+      <SecondNavbar />
+    </div>
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
+<script>
+import UserNavbar from "../src/components/UserNavbar.vue";
+import SecondNavbar from "../src/components/SecondNavbar.vue";
+export default {
+  name: "App",
+  components: { UserNavbar, SecondNavbar },
+  data: () => ({
+    name: "Nat Srisawaivilai ",
+  }),
+};
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.Nav {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: #466430;
+  position: fixed;
+  z-index: 100;
 }
 </style>
