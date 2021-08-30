@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import UserNavbar from "../src/components/UserNavbar.vue";
-import SecondNavbar from "../src/components/SecondNavbar.vue";
+import UserNavbar from "./components/allNavbar//UserNavbar.vue";
+import SecondNavbar from "./components/allNavbar/SecondNavbar.vue";
 export default {
   name: "App",
   components: { UserNavbar, SecondNavbar },
@@ -30,6 +30,6 @@ export default {
   width: 100vw;
   background-color: #466430;
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
 }
 </style>

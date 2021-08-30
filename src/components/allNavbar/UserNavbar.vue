@@ -1,7 +1,7 @@
 <template>
           <div
-        class="d-flex flex-row justify-space-between align-center d-sm-none d-md-flex"
-        style="width: 100vw; height:100%; max-height:30px; padding:0 15vw;"
+        class="test"
+        style=""
       >
         <div class="d-flex flex-row align-start">
           <a
@@ -66,6 +66,16 @@ export default {
    height: 24px;
     transition: 0.5s;
     transform: rotate(180deg);
+  } 
+  .test{
+    width: 100vw; 
+    height:100%; 
+    max-height:30px; 
+    padding:0 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   @media screen {
     

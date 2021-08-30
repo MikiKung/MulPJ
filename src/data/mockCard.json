@@ -1,0 +1,24 @@
+{
+    "card":[
+        {
+            "cId":1,
+            "cName":"ช้อปปิ้ง",
+            "cImg":"nightTown.jpg"
+        },
+        {
+            "cId":2,
+            "cName":"ที่พัก.ร้านอาหาร",
+            "cImg":"nightLightTown.jpg"
+        },
+        {
+            "cId":3,
+            "cName":"ท่องเที่ยวเรียนรู้",
+            "cImg":"1872.jpg"
+        },
+        {
+            "cId":4,
+            "cName":"Organic Tourism Activities",
+            "cImg":"1878.jpg"
+        }
+    ]
+}

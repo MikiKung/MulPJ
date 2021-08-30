@@ -1,9 +1,8 @@
 <template>
       <div
-      class="mt-6 white darken-3 d-flex justify-space-between align-center w-sm-8"
-      style="box-shadow:0px 12px 7px 0px #f5f5f5; width: 100%; padding:0 15vw; "
+      class="SecondNavbar mt-6 white darken-3 d-flex justify-space-between align-center w-sm-8"
     >
-      <img src="wink.jpg" alt="wink"  style="height:60px; width: 200px;" />
+      <img src="wink.jpg" alt="wink"  class="LogoWeb" />
       <div
         class="d-flex diraction-column"
         style="border-bottom:2px solid green"
@@ -45,8 +44,22 @@ export default {
 }
 </script>
 
-<style scope>
+<style>
 ::placeholder {
   color: rgba(85, 171, 87, 1);
+}
+.SecondNavbar{
+  box-shadow:0px 12px 7px 0px #f5f5f5; 
+  width: 100%; 
+  padding:0 15vw;
+}
+.LogoWeb{
+  height:60px; 
+  width: 200px; 
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1264px){
+
 }
 </style>

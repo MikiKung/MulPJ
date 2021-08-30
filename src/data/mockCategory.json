@@ -1,0 +1,70 @@
+{
+  "category": [
+    {
+      "Iid": 1,
+      "name": "ทั้งหมด",
+      "Img": "favicon.ico",
+      "Ilink": "home"
+    },
+    {
+      "Iid": 2,
+      "name": "ผัก",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 3,
+      "name": "ผลไม้",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 4,
+      "name": "อาหารแปรูป",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 5,
+      "name": "ไข่",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 6,
+      "name": "เนื้อสัตว์",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 7,
+      "name": "วัตถุดิบแห้ง",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 8,
+      "name": "เครื่องดื่ม",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 9,
+      "name": "สินค้าอุปโภค",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 10,
+      "name": "ข้าว",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    },
+    {
+      "Iid": 11,
+      "name": "สมุนไพร",
+      "Img": "favicon.ico",
+      "Ilink": "about"
+    }
+  ]
+}
